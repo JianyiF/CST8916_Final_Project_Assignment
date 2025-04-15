@@ -57,9 +57,9 @@ GROUP BY
     location, TumblingWindow(minute, 5)
 ```
 ### 4. Azure Blob Storage
--Output is saved in JSON format.
--Organized by folder pattern: `container/iotoutput`.
--Each file contains the average ice thickness and max snow accumulation for 5-minute intervals.
+- Output is saved in JSON format.
+- Organized by folder pattern: `container/iotoutput`.
+- Each file contains the average ice thickness and max snow accumulation for 5-minute intervals.
 
 ## Usage Instructions
 ### 1. Running the LoT Sensor Simulation
