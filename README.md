@@ -96,7 +96,8 @@ Simple JSON format output data from downloaded iotouput:
 "Location":"Dow's Lake",
 "AvgIceThickness":31.40740740740741,
 "MaxSnowAccumulation":15.0,
-"EventTime":"2025-04-14T22:10:00.0000000Z"}
+"EventTime":"2025-04-14T22:10:00.0000000Z"
+}
 ```
 ## Reflection
 The challege i meet are how to create the sensor simulator in python, i browse the code from in class IoT tutorial, and add locations and ice thickness, surface temperature, snow accumulation and external temperature.
